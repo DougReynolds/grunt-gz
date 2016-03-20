@@ -1,0 +1,41 @@
+{
+  "name": "grunt-gz",
+  "description": "Grunt gzip task",
+  "version": "0.1.0",
+  "homepage": "https://github.com/DougReynolds/grunt-gz",
+  "author": {
+    "name": "Douglas Reynolds",
+    "url": "https://dougreynolds.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DougReynolds/grunt-gz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DougReynolds/grunt-gz/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/DougReynolds/grunt-gz/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=0.12.7"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
